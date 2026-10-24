@@ -2,7 +2,7 @@
 -- Main entry point (modular)
 -- Load order: Environment -> Parser -> ImportCore -> ImporterUI
 
-local BASE_URL = "https://raw.githubusercontent.com/Edvxtrykkkkk/import/refs/heads/main/"
+local BASE_URL = "https://raw.githubusercontent.com/Edvxtrykkkkk/Import/refs/heads/main/"
 
 local function loadService(filename)
     local okFetch, source = pcall(function()
